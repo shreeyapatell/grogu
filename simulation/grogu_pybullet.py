@@ -2,6 +2,9 @@ import pybullet as p
 import time
 import pybullet_data
 
+# pip3 install pybullet
+# pip3 install gym
+
 pysicsClient = p.connect(p.GUI) #p.DIRECT for non-graphical version
 p.setAdditionalSearchPath(pybullet_data.getDataPath()) #optionally
 p.setGravity(0,0,-9.81)
