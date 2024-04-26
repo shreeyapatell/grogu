@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'left_leg_joint', 'left_knee_joint', 'left_foot_joint', 'right_leg_joint', 'right_knee_joint', 'right_foot_joint', ]

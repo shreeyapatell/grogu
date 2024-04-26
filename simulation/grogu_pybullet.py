@@ -11,7 +11,7 @@ robotStartPos = [0,0,2]
 robotStartOrientation = p.getQuaternionFromEuler([0,0,0])
 robotId = p.loadURDF("grogu.urdf", robotStartPos, robotStartOrientation)
 
-urdf = ""
+urdf = "/Users/shreeyapatel/School/robotics_studio/simulation/grogu.urdf"
 
 for i in range(10000): 
     p.stepSimulation()
